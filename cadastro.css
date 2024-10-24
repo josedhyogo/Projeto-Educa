@@ -1,0 +1,122 @@
+body {
+    padding: 0; /* Remove o preenchimento interno do corpo */
+    margin: 0; /* Remove a margem padrão do corpo */
+    background-color: #55c9ff; /* Define a cor de fundo da página */
+    display: flex; /*Define o layout como flex*/
+    justify-content: center;/*Centraliza o conteúdo horizontalmente*/
+    position: relative;/*Permite o posicionamento relativo*/
+    top: 110px;/*Move o body 100px para baixo*/
+}
+.TituloPagina {
+    text-align: center; /* Centraliza o texto */
+    color: #01A69D; /* Define a cor do texto */
+    font-weight: bold; /* Define o texto como negrito */
+    padding-right: 0; /* Remove o preenchimento à direita */
+    margin-left: 0; /* Remove a margem à esquerda */
+    margin-top: 0; /* Remove a margem superior */
+    margin-right: 0; /* Remove a margem à direita */
+    margin-bottom: 10px; /* Define uma margem inferior de 10px */
+    font-size: 20px; /* Define o tamanho da fonte */
+}
+/* Estilo para o título principal */
+#TituloMain {
+    font-weight: bold; /* Define o texto como negrito */
+    padding-right: 0; /* Remove o preenchimento à direita */
+    margin-left: 0; /* Remove a margem à esquerda */
+    margin-top: 0; /* Remove a margem superior */
+    margin-right: 0; /* Remove a margem à direita */
+    margin-bottom: 10px; /* Define uma margem inferior de 10px */
+    font-size: 20px; /* Define o tamanho da fonte */
+    position: relative; /* Permite o posicionamento relativo */
+    right: 52px; /* Move o título 100px para a direita */
+    text-decoration: underline; /* Sublinha o texto */
+}
+nav{    
+    text-align: end; /* Alinha o texto à direita */
+    word-spacing: 10px; /* Define o espaço entre palavras */
+    border: 1px solid rgba(80, 80, 80, 0.377); /* Adiciona uma borda com cor semitransparente */
+    padding: 5px; /* Define o preenchimento interno */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    margin-left: 620px; /* Define a margem à esquerda */
+    
+}
+.links{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: rgb(127, 150, 255); /* Define a cor dos links */
+    margin: 0; /* Remove a margem */
+    
+}
+
+main {
+    display: grid; /* Define o layout como grid */
+    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    max-width: 800px; /* Define a largura máxima */
+    min-width: 200px; /* Define a largura mínima */
+    max-height: 800px; /* Define a altura máxima */
+    padding: 20px; /* Adiciona preenchimento interno */
+    border-radius: 10px; /* Arredonda os cantos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao redor do elemento */
+    background-color: white; /* Define a cor de fundo como branca */
+
+}
+.login {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    border: 1px solid rgba(80, 80, 80, 0.377);
+    padding: 40px; /* Adiciona um espaço interno */
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 190px;
+}
+.login-container {
+    display: flex; /* Adicionado para alinhar inputs e imagem lado a lado */
+    align-items: flex-start; /* Alinha os itens no topo */
+}
+input { 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    background-color: #f0f0f0;
+}
+#email {
+    margin-bottom: 20px;
+    padding:10px 5px 10px 5px ;
+}
+#senha{
+    margin-bottom: 10px;
+    padding:10px 5px 10px 5px ;
+}
+#nome{
+    margin-bottom: 20px;
+    padding:10px 5px 10px 5px ;
+}
+#data{
+    margin-bottom: 15px;
+    padding:   10px 65px 5px 5px ;
+    font-weight: 300;
+}
+#entrar{
+    background-color: #003084;
+    color: white;
+    height: 30px;
+    margin-right: 60px;
+}
+#entrar:hover{
+    background-color: yellow;
+}
+img{
+    border: 2px solid rgba(0, 0, 0, 0.377); /* Adiciona uma borda semitransparente */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    position: relative;
+    top: -75px;
+    margin-left: 523px; /* Define a margem à esquerda */
+    margin-top: -400px; /* Move a imagem 300px para cima */
+    
+}
+.Sobre{
+    border: 1px solid rgba(80, 80, 80, 0.377); /* Adiciona uma borda semitransparente */
+    border-radius: 10px; /* Arredonda os cantos */
+    margin-top: 50px; /* Define uma margem superior de 50px */
+    padding: 10px; /* Adiciona preenchimento interno */
+}

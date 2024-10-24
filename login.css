@@ -1,0 +1,137 @@
+/* Define as configurações gerais do corpo da página */
+body {
+    padding: 0; /* Remove o preenchimento interno do corpo */
+    margin: 0; /* Remove a margem padrão do corpo */
+    background-color: #55c9ff; /* Define a cor de fundo da página */
+    display: flex; /*Define o layout como flex*/
+    justify-content: center;/*Centraliza o conteúdo horizontalmente*/
+    position: relative;/*Permite o posicionamento relativo*/
+    top: 110px;/*Move o body 100px para baixo*/
+}
+
+/* Estilo para o título da página */
+.TituloPagina {
+    text-align: center; /* Centraliza o texto */
+    color: #01A69D; /* Define a cor do texto */
+    font-weight: bold; /* Define o texto como negrito */
+    padding-right: 0; /* Remove o preenchimento à direita */
+    margin-left: 0; /* Remove a margem à esquerda */
+    margin-top: 0; /* Remove a margem superior */
+    margin-right: 0; /* Remove a margem à direita */
+    margin-bottom: 10px; /* Define uma margem inferior de 10px */
+    font-size: 20px; /* Define o tamanho da fonte */
+}
+
+/* Estilo para o elemento de navegação */
+nav {
+    text-align: end; /* Alinha o texto à direita */
+    word-spacing: 10px; /* Define o espaço entre palavras */
+    border: 1px solid rgba(80, 80, 80, 0.377); /* Adiciona uma borda com cor semitransparente */
+    padding: 5px; /* Define o preenchimento interno */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    margin-left: 620px; /* Define a margem à esquerda */
+}
+
+/* Estilo para os links */
+.links {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: rgb(127, 150, 255); /* Define a cor dos links */
+    margin: 0; /* Remove a margem */
+}
+
+/* Estilo para a área principal do conteúdo */
+main {
+    display: grid; /* Define o layout como grid */
+    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    max-width: 800px; /* Define a largura máxima */
+    min-width: 200px; /* Define a largura mínima */
+    max-height: 800px; /* Define a altura máxima */
+    padding: 20px; /* Adiciona preenchimento interno */
+    border-radius: 10px; /* Arredonda os cantos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao redor do elemento */
+    background-color: white; /* Define a cor de fundo como branca */
+
+}
+
+/* Estilo para o título principal */
+#TituloMain {
+    font-weight: bold; /* Define o texto como negrito */
+    padding-right: 0; /* Remove o preenchimento à direita */
+    margin-left: 0; /* Remove a margem à esquerda */
+    margin-top: 0; /* Remove a margem superior */
+    margin-right: 0; /* Remove a margem à direita */
+    margin-bottom: 10px; /* Define uma margem inferior de 10px */
+    font-size: 20px; /* Define o tamanho da fonte */
+    position: relative; /* Permite o posicionamento relativo */
+    right: 100px; /* Move o título 100px para a direita */
+    text-decoration: underline; /* Sublinha o texto */
+}
+
+/* Estilo para o formulário de login */
+.login {
+    margin-top: 10px; /* Adiciona uma margem superior */
+    margin: 0; /* Remove a margem */
+    display: flex; /* Permite layout flexível */
+    align-items: flex-end; /* Alinha os itens na parte inferior */
+    flex-direction: column; /* Organiza os itens em coluna */
+    border: 1px solid rgba(80, 80, 80, 0.377); /* Adiciona uma borda semitransparente */
+    padding: 75px; /* Adiciona um espaço interno */
+    padding-left: 80; /* Define o preenchimento à esquerda */
+    padding-right: 13px; /* Define o preenchimento à direita */
+    padding-top: 30px; /* Define o preenchimento superior */
+    padding-bottom: 25px; /* Define o preenchimento inferior */
+    border-radius: 10px; /* Arredonda os cantos */
+    width: 190px; /* Define a largura */
+}
+
+/* Estilo para o container do formulário de login */
+.login-container {
+    display: flex; /* Permite layout flexível */
+    align-items: flex-start; /* Alinha os itens no topo */
+}
+
+/* Estilo para os campos de entrada */
+input {
+    border: 1px solid #ccc; /* Define uma borda cinza clara */
+    border-radius: 4px; /* Arredonda os cantos da borda */
+}
+
+/* Estilo específico para o campo de email */
+#email {
+    margin-bottom: 20px; /* Define uma margem inferior de 20px */
+    padding: 15px 75px 10px 10px; /* Define preenchimentos (superior, direito, inferior, esquerdo) */
+}
+
+/* Estilo específico para o campo de senha */
+#senha {
+    margin-bottom: 10px; /* Define uma margem inferior de 10px */
+    padding: 15px 75px 10px 10px; /* Define preenchimentos (superior, direito, inferior, esquerdo) */
+}
+
+/* Estilo para o botão */
+button {
+    border: 1px solid black; /* Define uma borda preta */
+    border-radius: 7px; /* Arredonda os cantos */
+    padding: 7px; /* Adiciona preenchimento interno */
+    background-color: #003084; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto como branco */
+}
+
+/* Estilo para as imagens */
+img {
+    border: 2px solid rgba(0, 0, 0, 0.377); /* Adiciona uma borda semitransparente */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    position: relative;
+    top: -20px;
+    margin-left: 523px; /* Define a margem à esquerda */
+    margin-top: -300px; /* Move a imagem 300px para cima */
+}
+
+/* Estilo para a seção "Sobre" */
+.Sobre {
+    border: 1px solid rgba(80, 80, 80, 0.377); /* Adiciona uma borda semitransparente */
+    border-radius: 10px; /* Arredonda os cantos */
+    margin-top: 50px; /* Define uma margem superior de 50px */
+    padding: 10px; /* Adiciona preenchimento interno */
+}
