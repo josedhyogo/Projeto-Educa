@@ -25,11 +25,12 @@ body {
 /* Estilo para o elemento de navegação */
 nav {
     text-align: end; /* Alinha o texto à direita */
-    word-spacing: 10px; /* Define o espaço entre palavras */
+    word-spacing: 5px; /* Define o espaço entre palavras */
     border: 1px solid rgba(80, 80, 80, 0.377); /* Adiciona uma borda com cor semitransparente */
-    padding: 5px; /* Define o preenchimento interno */
+    padding: 5px 5px 5px 5px; /* Define o preenchimento interno */
     border-radius: 10px; /* Arredonda os cantos da borda */
     margin-left: 620px; /* Define a margem à esquerda */
+ 
 }
 
 /* Estilo para os links */
@@ -41,12 +42,10 @@ nav {
 
 /* Estilo para a área principal do conteúdo */
 main {
-    display: grid; /* Define o layout como grid */
-    align-items: center;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+
+    margin: auto; /* Centraliza o conteudo */
     max-width: 800px; /* Define a largura máxima */
-    min-width: 200px; /* Define a largura mínima */
-    max-height: 800px; /* Define a altura máxima */
+    min-width: 280px; /* Define a largura mínima */
     padding: 20px; /* Adiciona preenchimento interno */
     border-radius: 10px; /* Arredonda os cantos */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao redor do elemento */

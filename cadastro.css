@@ -33,9 +33,9 @@ body {
 }
 nav{    
     text-align: end; /* Alinha o texto à direita */
-    word-spacing: 10px; /* Define o espaço entre palavras */
+    word-spacing: 5px; /* Define o espaço entre palavras */
     border: 1px solid rgba(80, 80, 80, 0.377); /* Adiciona uma borda com cor semitransparente */
-    padding: 5px; /* Define o preenchimento interno */
+    padding: 5px 5px 5px 5px; /* Define o preenchimento interno */
     border-radius: 10px; /* Arredonda os cantos da borda */
     margin-left: 620px; /* Define a margem à esquerda */
     
