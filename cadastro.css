@@ -5,19 +5,22 @@ body {
     display: flex; /*Define o layout como flex*/
     justify-content: center;/*Centraliza o conteúdo horizontalmente*/
     position: relative;/*Permite o posicionamento relativo*/
-    top: 110px;/*Move o body 100px para baixo*/
+    top: 100px;/*Move o body 100px para baixo*/
+    font-family: poppins;
 }
+/* Estilo para o título da página */
 .TituloPagina {
-    text-align: center; /* Centraliza o texto */
+    
     color: #01A69D; /* Define a cor do texto */
     font-weight: bold; /* Define o texto como negrito */
     padding-right: 0; /* Remove o preenchimento à direita */
     margin-left: 0; /* Remove a margem à esquerda */
     margin-top: 0; /* Remove a margem superior */
     margin-right: 0; /* Remove a margem à direita */
-    margin-bottom: 10px; /* Define uma margem inferior de 10px */
-    font-size: 20px; /* Define o tamanho da fonte */
+    margin-bottom: 5px; /* Define uma margem inferior de 10px */
+    font-size: 40px; /* Define o tamanho da fonte */
 }
+
 /* Estilo para o título principal */
 #TituloMain {
     font-weight: bold; /* Define o texto como negrito */
@@ -31,22 +34,27 @@ body {
     right: 52px; /* Move o título 100px para a direita */
     text-decoration: underline; /* Sublinha o texto */
 }
-nav{    
-    text-align: end; /* Alinha o texto à direita */
-    word-spacing: 5px; /* Define o espaço entre palavras */
+nav {
+    text-align: center; /* Alinha o texto à direita */
+    width: 300px;
+    word-spacing: 8px; /* Define o espaço entre palavras */
     border: 1px solid rgba(80, 80, 80, 0.377); /* Adiciona uma borda com cor semitransparente */
-    padding: 5px 5px 5px 5px; /* Define o preenchimento interno */
+    padding: 7px 4px 5px 2px; /* Define o preenchimento interno */
     border-radius: 10px; /* Arredonda os cantos da borda */
-    margin-left: 620px; /* Define a margem à esquerda */
+    margin-left: 489px; /* Define a margem à esquerda */
     
 }
+
 .links{
     text-decoration: none; /* Remove o sublinhado dos links */
     color: rgb(127, 150, 255); /* Define a cor dos links */
     margin: 0; /* Remove a margem */
+    transition: font-size 0.3s ease; /* Transição suave */
     
 }
-
+.links:hover{
+    font-size: 24px; /* Tamanho ao passar o mouse */
+}
 main {
     display: grid; /* Define o layout como grid */
     align-items: center;
@@ -97,13 +105,18 @@ input {
     font-weight: 300;
 }
 #entrar{
+    border: 2px solid #003084; /* Define uma borda preta */
+    border-radius: 7px; /* Arredonda os cantos */
+    padding: 7px; /* Adiciona preenchimento interno */
+    color: #003084; /* Define a cor do texto como branco */
+    font-family: poppins;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+
+#entrar:hover {
     background-color: #003084;
     color: white;
-    height: 30px;
-    margin-right: 60px;
-}
-#entrar:hover{
-    background-color: yellow;
 }
 img{
     border: 2px solid rgba(0, 0, 0, 0.377); /* Adiciona uma borda semitransparente */
@@ -117,6 +130,6 @@ img{
 .Sobre{
     border: 1px solid rgba(80, 80, 80, 0.377); /* Adiciona uma borda semitransparente */
     border-radius: 10px; /* Arredonda os cantos */
-    margin-top: 50px; /* Define uma margem superior de 50px */
+    margin-top: 25px; /* Define uma margem superior de 50px */
     padding: 10px; /* Adiciona preenchimento interno */
 }

@@ -1,3 +1,23 @@
+
+@media (max-width: 728px) {
+    img {
+        display: none; /* Mantém a regra de esconder imagens */
+    }
+    nav {
+        text-align: center; /* Centraliza o texto */
+        display: flex; /* Permite o layout flexível */
+        flex-direction: column; /* Organiza os itens em coluna */
+        align-items: center; /* Centraliza os itens horizontalmente */
+        margin-left: 0; /* Remove margens */
+        width: 100%; /* Garante que o nav ocupe a largura total */
+    }
+
+    .links {
+        margin: 5px 0; /* Adiciona um espaço entre os links */
+    }
+}
+
+
 /* Define as configurações gerais do corpo da página */
 body {
     padding: 0; /* Remove o preenchimento interno do corpo */
@@ -6,7 +26,9 @@ body {
     display: flex; /*Define o layout como flex*/
     justify-content: center;/*Centraliza o conteúdo horizontalmente*/
     position: relative;/*Permite o posicionamento relativo*/
-    top: 110px;/*Move o body 100px para baixo*/
+    top: 100px;/*Move o body 100px para baixo*/
+    font-family: poppins;
+
 }
 
 /* Estilo para o título da página */
@@ -18,19 +40,20 @@ body {
     margin-left: 0; /* Remove a margem à esquerda */
     margin-top: 0; /* Remove a margem superior */
     margin-right: 0; /* Remove a margem à direita */
-    margin-bottom: 10px; /* Define uma margem inferior de 10px */
-    font-size: 20px; /* Define o tamanho da fonte */
+    margin-bottom: 5px; /* Define uma margem inferior de 10px */
+    font-size: 40px; /* Define o tamanho da fonte */
 }
 
 /* Estilo para o elemento de navegação */
 nav {
-    text-align: end; /* Alinha o texto à direita */
-    word-spacing: 5px; /* Define o espaço entre palavras */
+    text-align: center; /* Alinha o texto à direita */
+    width: 300px;
+    word-spacing: 8px; /* Define o espaço entre palavras */
     border: 1px solid rgba(80, 80, 80, 0.377); /* Adiciona uma borda com cor semitransparente */
-    padding: 5px 5px 5px 5px; /* Define o preenchimento interno */
+    padding: 7px 4px 5px 2px; /* Define o preenchimento interno */
     border-radius: 10px; /* Arredonda os cantos da borda */
-    margin-left: 620px; /* Define a margem à esquerda */
- 
+    margin-left: 489px; /* Define a margem à esquerda */
+    
 }
 
 /* Estilo para os links */
@@ -38,11 +61,14 @@ nav {
     text-decoration: none; /* Remove o sublinhado dos links */
     color: rgb(127, 150, 255); /* Define a cor dos links */
     margin: 0; /* Remove a margem */
+    transition: font-size 0.3s ease; /* Transição suave */
 }
-
+.links:hover{
+    font-size: 24px; /* Tamanho ao passar o mouse */
+}
 /* Estilo para a área principal do conteúdo */
 main {
-
+    
     margin: auto; /* Centraliza o conteudo */
     max-width: 800px; /* Define a largura máxima */
     min-width: 280px; /* Define a largura mínima */
@@ -94,6 +120,7 @@ main {
 input {
     border: 1px solid #ccc; /* Define uma borda cinza clara */
     border-radius: 4px; /* Arredonda os cantos da borda */
+    font-family: poppins;
 }
 
 /* Estilo específico para o campo de email */
@@ -110,11 +137,18 @@ input {
 
 /* Estilo para o botão */
 button {
-    border: 1px solid black; /* Define uma borda preta */
+    border: 2px solid #003084; /* Define uma borda preta */
     border-radius: 7px; /* Arredonda os cantos */
     padding: 7px; /* Adiciona preenchimento interno */
-    background-color: #003084; /* Define a cor de fundo do botão */
-    color: white; /* Define a cor do texto como branco */
+    color: #003084; /* Define a cor do texto como branco */
+    font-family: poppins;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003084;
+    color: white;
 }
 
 /* Estilo para as imagens */

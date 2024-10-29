@@ -1,0 +1,188 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #55c9ff;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400px;
+}
+/* Estilo para o título da página */
+.TituloPagina {
+    text-align: center; /* Centraliza o texto */
+    color: #01A69D; /* Define a cor do texto */
+    font-weight: bold; /* Define o texto como negrito */
+    padding-right: 0; /* Remove o preenchimento à direita */
+    margin-left: 0; /* Remove a margem à esquerda */
+    margin-top: 0; /* Remove a margem superior */
+    margin-right: 0; /* Remove a margem à direita */
+    margin-bottom: 5px; /* Define uma margem inferior de 10px */
+    font-size: 40px; /* Define o tamanho da fonte */
+}
+
+nav {
+    text-align: center; /* Alinha o texto à direita */
+    width: 300px;
+    word-spacing: 8px; /* Define o espaço entre palavras */
+    border: 1px solid rgba(80, 80, 80, 0.377); /* Adiciona uma borda com cor semitransparente */
+    padding: 7px 4px 5px 2px; /* Define o preenchimento interno */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    margin-left: 489px; /* Define a margem à esquerda */
+    
+}
+.links{
+    text-decoration: none;
+    color: rgb(127, 150, 255);
+    transition: font-size 0.3s ease; /* Transição suave */
+}
+.links:hover{
+    font-size: 24px; /* Tamanho ao passar o mouse */
+}
+
+main {
+    display: block;
+    position: relative;/*Permite o posicionamento relativo*/
+    top: 100px;/*Move o body 100px para baixo*/
+    max-width: 800px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+ .cursos {
+    margin-left: 10px;
+    margin-top: 10px ;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    border: 1px solid rgba(80, 80, 80, 0.377);
+    padding: 40px;
+    border-radius: 10px;
+    width: 90px;
+    height: 200px;
+    text-decoration:none;
+ } 
+ .curso2{
+    float: right;
+    margin-right: 330px;
+    margin-top: -280px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    border: 1px solid rgba(80, 80, 80, 0.377);
+    padding: 40px;
+    border-radius: 10px;
+    width: 90px;
+    height: 200px
+}
+
+.curso3{
+    float: right;
+    margin-right: -480px;
+    margin-top: -280px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    border: 1px solid rgba(80, 80, 80, 0.377);
+    padding: 40px;
+    border-radius: 10px;
+    width: 90px;
+    height: 200px
+
+}
+
+
+.text{
+    position: relative;
+    left: 25px;
+    margin-top: -30px;
+    font-size: 15px;
+    white-space: nowrap;
+  
+}
+.text2{
+    position: relative;
+    left: 12px;
+    margin-top: -233px;
+    margin-right: -285px;
+ 
+}
+.text3{
+    position:relative;
+    margin-top: -37px;
+    margin-right: -633px;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+#imag{
+    margin-top: 70px;
+    height: 120px;
+    width: 128px;
+    margin-right: -20px;
+    background-color: #55c9ff;
+}
+#imag2{
+    margin-top: 95px;
+    height: 120px;
+    width: 128px;
+    margin-right: -20px;
+    background-color: #55c9ff;
+}
+#imag3{
+    margin-left: 504px;
+    margin-right: -20px;
+    margin-top: 90px;
+    height: 120px;
+    width: 128px;
+    background-color: #55c9ff;
+
+}
+
+.login-container {
+    display: flex; /* Adicionado para alinhar inputs e imagem lado a lado */
+    align-items: flex-start; /* Alinha os itens no topo */
+}
+input { 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    background-color: #f0f0f0;
+}
+#email {
+    margin-bottom: 20px;
+    padding:10px 5px 10px 5px ;
+}
+#senha{
+    margin-bottom: 10px;
+    padding:10px 5px 10px 5px ;
+}
+#nome{
+    margin-bottom: 20px;
+    padding:10px 5px 10px 5px ;
+}
+#data{
+    margin-bottom: 15px;
+    padding:   10px 65px 5px 5px ;
+    font-weight: 300;
+}
+#entrar{
+    background-color: rgb(69, 69, 197);
+    color: white;
+    height: 30px;
+    margin-right: 60px;
+}
+img{
+    border: 2px solid rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: -800px;
+
+    
+}
+.Sobre{
+    border: 1px solid rgba(80, 80, 80, 0.377);
+    border-radius:10px;
+    padding:10px;
+    margin-top: 70px;
+}
