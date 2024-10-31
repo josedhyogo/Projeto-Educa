@@ -62,6 +62,7 @@ main {
     width: 90px;
     height: 200px;
     text-decoration:none;
+   
  } 
  .curso2{
     float: right;
@@ -74,7 +75,8 @@ main {
     padding: 40px;
     border-radius: 10px;
     width: 90px;
-    height: 200px
+    height: 200px;
+    
 }
 
 .curso3{
@@ -88,10 +90,9 @@ main {
     padding: 40px;
     border-radius: 10px;
     width: 90px;
-    height: 200px
-
+    height: 200px;
+    
 }
-
 
 .text{
     position: relative;
@@ -99,14 +100,15 @@ main {
     margin-top: -30px;
     font-size: 15px;
     white-space: nowrap;
-  
+
+
 }
 .text2{
     position: relative;
     left: 12px;
     margin-top: -233px;
     margin-right: -285px;
- 
+    
 }
 .text3{
     position:relative;
@@ -114,6 +116,7 @@ main {
     margin-right: -633px;
     font-size: 13px;
     white-space: nowrap;
+    
 }
 
 #imag{

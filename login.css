@@ -63,6 +63,7 @@ nav {
     margin: 0; /* Remove a margem */
     transition: font-size 0.3s ease; /* Transição suave */
 }
+
 .links:hover{
     font-size: 24px; /* Tamanho ao passar o mouse */
 }
