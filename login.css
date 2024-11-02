@@ -1,5 +1,5 @@
 
-@media (max-width: 728px) {
+@media (max-width: 320px) {
     img {
         display: none; /* Mantém a regra de esconder imagens */
     }
