@@ -1,15 +1,15 @@
 
-@media (max-width: 320px) {
+@media (max-width: 568px) {
     img {
+        opacity: 0;
         display: none; /* Mantém a regra de esconder imagens */
     }
     nav {
         text-align: center; /* Centraliza o texto */
-        display: flex; /* Permite o layout flexível */
-        flex-direction: column; /* Organiza os itens em coluna */
-        align-items: center; /* Centraliza os itens horizontalmente */
         margin-left: 0; /* Remove margens */
         width: 100%; /* Garante que o nav ocupe a largura total */
+        position: relative;
+        right: 500px;
     }
 
     .links {
