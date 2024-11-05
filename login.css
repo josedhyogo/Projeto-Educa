@@ -1,8 +1,7 @@
 
 @media (max-width: 568px) {
     img {
-        opacity: 0;
-        display: none; /* Mantém a regra de esconder imagens */
+        opacity: 0; /* esconde a imagens */
     }
     nav {
         text-align: center; /* Centraliza o texto */
@@ -14,6 +13,16 @@
 
     .links {
         margin: 5px 0; /* Adiciona um espaço entre os links */
+    }
+    #email {
+        margin-bottom: 20px; /* Define uma margem inferior de 20px */
+        padding: 15px 5px 10px 10px; /* Define preenchimentos (superior, direito, inferior, esquerdo) */
+    }
+    
+    /* Estilo específico para o campo de senha */
+    #senha {
+        margin-bottom: 10px; /* Define uma margem inferior de 10px */
+        padding: 15px 5px 10px 10px; /* Define preenchimentos (superior, direito, inferior, esquerdo) */
     }
 }
 

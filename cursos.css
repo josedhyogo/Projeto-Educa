@@ -1,3 +1,32 @@
+@media (max-width: 568px) {
+    .login{
+        position: relative;
+        left: 268px;
+    }
+    nav {
+        text-align: center; /* Centraliza o texto */
+        margin-left: 0; /* Remove margens */
+        width: 100%; /* Garante que o nav ocupe a largura total */
+        position: relative;
+        right: 510px;
+    }
+
+    .links {
+        margin: 5px 0; /* Adiciona um espaço entre os links */
+    }
+    .Sobre{
+        position: relative;
+        width: 250px;
+    }
+    .cursos, .curso2, .curso3 {
+        display: flex;
+        flex-direction: column; /* Empilha os cursos verticalmente */
+        align-items: center;
+        margin: 10px auto; /* Centraliza e espaça cada curso */
+        width: auto; /* Ajusta a largura para ocupar mais espaço */
+    }
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -43,7 +72,6 @@ main {
     position: relative;/*Permite o posicionamento relativo*/
     top: 100px;/*Move o body 100px para baixo*/
     max-width: 800px;
-    height: 700px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;

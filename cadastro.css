@@ -1,3 +1,29 @@
+
+@media (max-width: 568px) {
+    .login{
+        position: relative;
+        left: 268px;
+    }
+    img {
+        opacity: 0; /* esconde a imagens */
+    }
+    nav {
+        text-align: center; /* Centraliza o texto */
+        margin-left: 0; /* Remove margens */
+        width: 100%; /* Garante que o nav ocupe a largura total */
+        position: relative;
+        right: 240px;
+    }
+
+    .links {
+        margin: 5px 0; /* Adiciona um espaço entre os links */
+    }
+    .Sobre{
+        position: relative;
+        left: 268px;
+        width: 250px;
+    }
+}
 body {
     padding: 0; /* Remove o preenchimento interno do corpo */
     margin: 0; /* Remove a margem padrão do corpo */
@@ -61,7 +87,6 @@ main {
     justify-content: center; /* Centraliza o conteúdo horizontalmente */
     max-width: 800px; /* Define a largura máxima */
     min-width: 200px; /* Define a largura mínima */
-    max-height: 800px; /* Define a altura máxima */
     padding: 20px; /* Adiciona preenchimento interno */
     border-radius: 10px; /* Arredonda os cantos */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao redor do elemento */
