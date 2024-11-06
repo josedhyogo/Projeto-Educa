@@ -1,32 +1,73 @@
 @media (max-width: 568px) {
-    .login{
-        position: relative;
-        left: 268px;
-    }
-    nav {
-        text-align: center; /* Centraliza o texto */
-        margin-left: 0; /* Remove margens */
-        width: 100%; /* Garante que o nav ocupe a largura total */
-        position: relative;
-        right: 510px;
+    /* Centraliza o título da página */
+    .TituloPagina {
+        font-size: 24px;
+        padding: 10px;
+        text-align: center;
+        margin: 0 auto;
     }
 
+    /* Ajuste do nav */
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: 0 auto;
+        padding: 10px;
+        border: none;
+    }
+
+    /* Links de navegação */
     .links {
-        margin: 5px 0; /* Adiciona um espaço entre os links */
+        margin: 5px 0;
+        font-size: 14px;
+        color: #01A69D;
     }
-    .Sobre{
-        position: relative;
-        width: 250px;
-    }
+
+    /* Estilo dos cursos */
     .cursos, .curso2, .curso3 {
         display: flex;
-        flex-direction: column; /* Empilha os cursos verticalmente */
+        flex-direction: column;
         align-items: center;
-        margin: 10px auto; /* Centraliza e espaça cada curso */
-        width: auto; /* Ajusta a largura para ocupar mais espaço */
+        margin: 10px auto;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid rgba(80, 80, 80, 0.377);
+        border-radius: 10px;
+    }
+
+    /* Ajuste das imagens de cursos */
+    #imag, #imag2, #imag3 {
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+    }
+
+    /* Ajuste dos textos dos cursos */
+    .text, .text2, .text3 {
+        font-size: 14px;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    /* Ajuste da seção Sobre */
+    .Sobre {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid rgba(80, 80, 80, 0.377);
+        border-radius: 10px;
+    }
+
+    /* Ajustes gerais para o main */
+    main {
+        padding: 10px;
+        width: 100%;
+        box-shadow: none;
+        border-radius: 0;
     }
 }
-
 body {
     padding: 0;
     margin: 0;
